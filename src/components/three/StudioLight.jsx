@@ -33,14 +33,14 @@ const StudioLight = () => {
             </Environment>
             <spotLight
                 ref={spot1}
-                position={[-2, -5, 5]}
+                position={[-2, 10, 5]}
                 intensity={Math.PI * 0.2}
                 angle={0.25}
                 decay={0}
             />
             <spotLight
                 ref={spot2}
-                position={[0, 5, 0]}
+                position={[2, 5, 10]}
                 intensity={Math.PI *.5}
                 angle={0.25}
                 decay={0}
